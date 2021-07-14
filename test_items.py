@@ -2,7 +2,7 @@ import pytest
 from selenium import webdriver
 import time
 
-def test_different_languages(browser):
+def test_cart_button_visible(browser):
     link = f"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     browser.get(link)
     time.sleep(30)
